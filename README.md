@@ -1,7 +1,7 @@
 ## 01 - Conhecendo o Styled Components
 
 * Criando pastas src / screens
-* Testando componente Dashboard
+* Testando componente `Dashboard`
 
 ## 02 - Criando componentes com o Styled Components
 
@@ -29,4 +29,23 @@
 
 ## 05 - Densidade de Pixel
 
-## 06 - 
+## 06 - Utilizando proporções em medidas
+
+* Montar o `Dashboard`
+* Criando componente estilizado `Header` e explicar como é montado esse componente
+* Instalação de uma biblioteca para trabalhar com proporções, pois há diferenças de densidades de pixels em celulares diferentes. Uso do seguinte comando: `yarn add react-native-responsive-fontsize`
+* Explicando noções de flexbox e de como o layout se comporta
+* Criando os componentes de estilização `UserInfo`,`Photo`,`User``UserGreeting` e `UserName` na pasta `Dashboard`   
+* Estilizando uma foto com a imagem pessoal tirado do perfil do github, usando o `RFValue` para delimitar as proporções da foto 
+* Estilizando componentes restantes e criação e estilização do componente `UserWrapper` para envolver todo o `ÙserInfo`.    
+
+## 07 - Utilizando ícones
+
+* Importação da lib de ícones `@expo/vector-icons` diretamente no `styles.ts`
+* Criação e estilização de um componente de estilo chamado `Icon` que foi feito no arquivo `styles.ts` usando dos artificios do styled components. *Ex:*`export const Icon = styled(Feather)`
+
+## 08 - Criação dos cartões de Destaque
+
+* Criação da pasta `Components`
+* Criação do componente `HighlightCard` e posteriormente feita sua estilização
+* Importante destacar a criação dos componentes de estilo `Header` e `Footer` que trazem uma lógica de organização do layout
