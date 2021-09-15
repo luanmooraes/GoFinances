@@ -42,10 +42,24 @@
 ## 07 - Utilizando ícones
 
 * Importação da lib de ícones `@expo/vector-icons` diretamente no `styles.ts`
-* Criação e estilização de um componente de estilo chamado `Icon` que foi feito no arquivo `styles.ts` usando dos artificios do styled components. *Ex:*`export const Icon = styled(Feather)`
+* Criação e estilização de um componente de estilo chamado `Icon` que foi feito no arquivo `styles.ts` usando dos artificios do styled components. Ex:`export const Icon = styled(Feather)`
 
 ## 08 - Criação dos cartões de Destaque
 
 * Criação da pasta `Components`
 * Criação do componente `HighlightCard` e posteriormente feita sua estilização
 * Importante destacar a criação dos componentes de estilo `Header` e `Footer` que trazem uma lógica de organização do layout
+
+## 09 - Acessando propriedades no Styled Components
+
+* Acesso ás propriedades da `ScrollView` com um das vantagens do styled components usando o método `attrs`
+
+## 10 - Posicionando os cartões em destaque
+
+* Instalação de uma lib para posicionamento de elementos no iphone em relação a Status Bar. Usamos para a instalação o seguinte comando: `yarn add react-native-iphone-x-helper`
+* Reposicionamento de alguns elementos
+
+## 11 - Tipando e acessando propriedades no Styled Components
+
+* Criação de uma interface(recursos do typescript) chamada `TypeProps` para tipagem de props
+* Usando uma propriedade do styled components que se chama `css` pra estilizar os componentes dentro do arquivo `styles`
